@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #5fa59d;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 3em;
+}
+
+.welcome {
+    background-image: url("/css/vet.jpg"); /* The image used */
+    height: 95vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+.person_detail {
+    font-size: 2em;
+    color: white;
+}
+
+.pet_image {
+    width: 13em;
+    border-radius: 20%;
+}
+
+.pet_div {
+    display: flex;
+    margin-top: 5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.detail_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer {
+    margin-top: 5em;
+}
+
+.edit {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
